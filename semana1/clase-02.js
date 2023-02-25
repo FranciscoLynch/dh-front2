@@ -40,11 +40,12 @@ const compararJugadas = (jugadaUsuario, jugadaPC) => {
 
     if ((eleccionJugador === 1 && eleccionPC === 3) || (eleccionJugador === 2 && eleccionPC === 1) || (eleccionJugador === 3 && eleccionPC === 2)) return '¡Ganaste :D!'
 
-    if ((eleccionPC === 1 && eleccionJugador === 3) || (eleccionPC === 2 && eleccionJugador === 1) || (eleccionPC === 3 && eleccionJugador === 2)) return '¡Perdiste D:!'
+    else return '¡Perdiste D:!'
+
 
 }
 
-console.log(compararJugadas(jugadaUsuario(), jugadaPC()))
+// console.log(compararJugadas(jugadaUsuario(), jugadaPC()))
 
 
 
